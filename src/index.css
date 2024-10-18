@@ -1,0 +1,18 @@
+@tailwind base;
+
+@layer base {
+	body {
+    direction: rtl;
+		@apply font-yekan font-normal bg-darkClr;
+	}
+}
+@tailwind components;
+@tailwind utilities;
+
+.thumbSwiper .swiper-slide-visible.swiper-slide-fully-visible.swiper-slide-thumb-active{
+	box-shadow: 0px 10px 10px #000;
+	scale: 1.05;
+	@apply transition-all duration-300;
+	border: 0px solid #242731;
+
+}
